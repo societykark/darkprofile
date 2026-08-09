@@ -15,7 +15,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 # ========== CONFIGURACIÓN ==========
 TOKEN = os.environ.get("TOKEN")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", 0))
-WORKER_URL = "https://galleta.societykark.workers.dev"  # Cambia por tu Worker
+WORKER_URL = "https://orange-queen-694e.societykark.workers.dev/"  # Cambia por tu Worker
 
 if not TOKEN or not ADMIN_ID:
     raise ValueError("❌ Faltan TOKEN o ADMIN_ID")
